@@ -85,13 +85,6 @@ public class Main {
             System.out.println("Бесконечное множество решений");
         }
         else {
-            /*System.out.println("\nВаша матрица после метода Гаусса: ");
-            for (int i = 0; i<n; i++){
-                for (int j = 0; j < m; j++) {
-                    System.out.print(A[i][j] + " ");
-                }
-                System.out.println("|" + b[i]);
-            }*/
             System.out.println("\nРешение системы:");
             for (int i = 0; i<N;i++){
                 System.out.println(x[i] + " ");
